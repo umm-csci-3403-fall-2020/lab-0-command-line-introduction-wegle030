@@ -8,3 +8,4 @@ if [ $# -eq 2 ];then
 else
 	echo "Wrong number of arguments"
 fi
+#This script takes in an existing archive name and a tmp directory name. It then extracts the contents of the archive and parses it for files containing DELETE ME! and deletes them all. After that, it sends them to a new archive called cleaned_$!.
